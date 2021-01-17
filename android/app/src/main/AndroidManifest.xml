@@ -46,9 +46,9 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="sample"
-                    android:pathPrefix="/display"
-                    android:scheme="app" />
+                    android:host="10.0.2.2"
+                    android:port="8080"
+                    android:scheme="http" />
             </intent-filter>
 
             <!-- App Links -->
